@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo de la página */
+    padding: 20px;
+}
+
+h1 {
+    color: #b30000; /* Color de los encabezados */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #b30000; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800000; /* Color del botón al pasar el cursor */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #333; /* Color del fondo de la tabla */
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #800000; /* Fondo de las celdas de encabezado */
+    color: #fff;
+}
+
+td {
+    background-color: #ddd; /* Fondo de las celdas de datos */
+    color: #000;
+}
+
+tr:nth-child(even) td {
+    background-color: #bbb; /* Color de fondo para filas pares */
+}
+
+a {
+    color: #b30000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
